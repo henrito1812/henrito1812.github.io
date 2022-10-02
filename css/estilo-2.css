@@ -1,0 +1,105 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-image: url("../imagenes/biblioteca.jpg");
+}
+
+
+.header{width: 100%vh;
+	height: 80px;
+background:coral;
+border: 7px solid orange;
+float:;
+padding-top: 30px;
+color: ;
+
+}
+
+.contenedor-sugerir .form .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+	color: #f5f5f5;
+	padding: 14px 0;
+}
+
+.contenedor-sugerir .form{
+	background:#393b48;
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 38px;
+	padding-bottom: 38px;
+	border-radius: 3px;
+}
+
+
+.contenedor-sugerir .form .form-label-sugerir{
+	display: block;
+	color: #f5f5f5;
+	font-size: 16px;
+	font-family: roboto;
+	position: relative;
+}
+
+
+.contenedor-sugerir .form  .form-input-sugerir, .form-textarea{
+	background: #61647b;
+	border: none;
+	
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #f5f5f5;
+	font-family: Roboto;
+}
+
+
+.form-textarea .contenedor-sugerir .form {
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.contenedor-sugerir .form  .btn-submit{
+	width: 100%;
+	font-family: roboto;
+	outline: none;
+	background: #61647b;
+	font-size: 16px;
+	border: none;
+	color: #f5f5f5;
+	padding: 15px 0;
+	cursor: pointer;
+
+}
+
+
+.form-input-sugerir  .placeholder{
+	color: #f5f5f5;
+}
+
+::placeholder{
+	color: #f5f5f5;
+}
+
+.form-input-sugerir:active{
+color: darkred;
+background: yellow;
+}
+
+
+@media screen and (max-width: 500px){
+	.form-label-sugerir{
+		color: red;
+		font-size: 10px;
+	}
+}
+

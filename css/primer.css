@@ -1,0 +1,104 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+	background-image: url("../imagenes/fondo-oscuro.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+	
+.contenedor-modificar .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #f5f5f5;
+	margin-bottom: 25px;
+
+} 
+
+.contenedor-modificar .form-modificar{
+	background: rgb(0,0,0,.6);
+	width: 90%;
+	max-width: 600px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 200px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+	
+}
+
+.contenedor-modificar .form-modificar .form-label-modificar{
+display: block;
+color: #f5f5f5;
+font-size: 26px;
+font-family: sans-serif;
+position: relative;
+}
+
+.contenedor-modificar .form-modificar .form-input-modificar{
+	background: #2ba3da4e;
+	border: none;
+	outline: none;
+	width: 75%;
+	height: 30px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	margin-top: 8px;
+}
+
+
+.contenedor-modificar .form-modificar .button-gestion{
+	width: 23%;
+	color:#fff;
+	background: #2ba3da4e;
+	font-size: 18px;
+	font-family: sans-serif;
+	height: 34px;
+	cursor: pointer;
+}
+
+::placeholder{
+	font-size: 18px;
+	padding: 5px 0px 0px 5px;
+	color: #f5f5f5;
+
+}
+
+.contenedor-modificar .form-modificar .button-gestion:hover{
+	background: #000;
+	color: #f5f5f5;
+	transition: 1s;
+
+}
+
+.contenedor-modificar .form-modificar .form-input-modificar:hover{
+	background: #000;
+	color: #f5f5f5;
+	transition: 1.5s;
+
+}
+
+@media screen and (max-width: 420px){
+	.contenedor-modificar .form-modificar .form-label-modificar{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 420px){
+	.contenedor-modificar .form-modificar .button-gestion{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	::placeholder{
+		font-size: 17px;
+	}
+}
+
+
+
+
